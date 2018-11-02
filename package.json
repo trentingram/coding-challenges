@@ -1,0 +1,19 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "This repo houses a series of coding challenges.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjhandy/coding-challenges.git"
+  },
+  "author": "khandy@homeaway.com",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
