@@ -22,3 +22,5 @@ function evenOccurrence (arr) {
    }
    return null;
 }
+
+module.exports = evenOccurrence;
