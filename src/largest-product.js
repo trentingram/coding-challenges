@@ -8,3 +8,5 @@ EX: [0, 2, 3] --> 0
 function largestProductFromThree(arr) {
    return arr.sort((a, b) => b - a).slice(0, 3).reduce((a, b) => a * b);
 }
+
+module.exports = largestProductFromThree;
