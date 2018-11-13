@@ -2,6 +2,10 @@ const assert = require("chai").assert;
 const largestProductFromThree = require("../src/largest-product");
 
 describe("largestProductFromThree", function() {
+  it("result should be a number", function() {
+    assert.isNumber(largestProductFromThree([2, 1, 3, 7]))
+});
+
   it("should return 42 if given [2, 1, 3, 7]", function() {
        assert.equal(largestProductFromThree([2, 1, 3, 7]), 42)
   });
