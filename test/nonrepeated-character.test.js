@@ -2,6 +2,9 @@ const assert = require("chai").assert;
 const firstNonRepeatedCharacter = require("../src/nonrepeated-character");
 
 describe("firstNonRepeatedCharacter", function() {
+  it("output should be a typeof -> string", function() {
+    assert.typeOf(firstNonRepeatedCharacter("ALABAMA"), 'string')
+});
   it("should return 'A' if given 'ABCD'", function() {
        assert.equal(firstNonRepeatedCharacter("A"), "A")
   });
